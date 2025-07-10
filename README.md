@@ -1,10 +1,9 @@
----
-title: "Summarize Demographics Toolbox"
-author: "Megan Kung, Equity Data Specialist, OPEETA, State Water Resources Control Board"
-contact: megan.kung@waterboards.ca.gov
-#date: "2025-07-08"
-output: html_document
----
+
+# "Summarize Demographics Toolbox"
+Megan Kung, Equity Data Specialist, OPEETA, State Water Resources Control Board
+megan.kung@waterboards.ca.gov
+
+
 
 ### Overview
 
