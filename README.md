@@ -28,7 +28,7 @@ The Water Boards' ArcGIS Pro Summarize Demographics tool estimates total populat
 
 4)  If all goes well, it should create an Excel report of summary demographic statistics exported to the folder you specified in the tool.
 
-    <img src="https://github.com/user-attachments/assets/82dcf9a3-0ff4-42ca-837a-3d72714bed21" alt="Image" width="1286" height="965"/>
+    <img src="https://github.com/user-attachments/assets/6fe1f1cc-42a5-4d35-9158-636c3e6c00eb" alt="Image" width="1285" height="969"/>
 
 ### Tool Parameters
 
