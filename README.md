@@ -22,9 +22,13 @@ The Water Boards' ArcGIS Pro Summarize Demographics tool estimates total populat
 
     <img src="https://github.com/user-attachments/assets/8560e506-230a-412d-96e0-5d073b4fd31b" alt="Image" width="1486" height="827"/>
 
-3)  Double-click on the Summarize Demographics tool. Fill in the parameter fields, described in pop-up fields if you hover over the red asterisk and in the following 'Tool Parameters' section. Click 'Run', cross your fingers, say a prayer to the GIS gods, and it should create an Excel report of summary demographic statistics.
+3)  Double-click on the Summarize Demographics tool. Fill in the parameter fields, described in pop-up fields if you hover over the red asterisk and in the following 'Tool Parameters' section. Click 'Run', cross your fingers, and say a prayer to the GIS gods.
 
     <img src="https://github.com/user-attachments/assets/38df2891-f00e-419f-9590-6fddc7b9c27c" alt="Image" width="1486" height="826"/>
+
+4)  If all goes well, it should create an Excel report of summary demographic statistics exported to the folder you specified in the tool.
+
+    <img src="https://github.com/user-attachments/assets/82dcf9a3-0ff4-42ca-837a-3d72714bed21" alt="Image" width="1286" height="965"/>
 
 ### Tool Parameters
 
