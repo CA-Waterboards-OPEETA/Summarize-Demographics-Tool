@@ -1,6 +1,6 @@
 # Summarize Demographics Toolbox
 
-Megan Kung, Equity Data Specialist, OPEETA, State Water Resources Control Board [megan.kung\@waterboards.ca.gov](mailto:megan.kung@waterboards.ca.gov){.email}
+Megan Kung, Equity Data Specialist, OPEETA, State Water Resources Control Board, megan.kung\@waterboards.ca.gov
 
 ### Overview
 
@@ -16,11 +16,15 @@ The Water Boards' ArcGIS Pro Summarize Demographics tool estimates total populat
 
 1)  Download the "CA_Demographic_Analysis.ppkx" to a folder you would like to work from, then open in ArcGIS Pro. You can find the tool in the Project Catalog, under Toolboxes \> CA_Demographic_Analysis.atbx \> Summarize Demographics.
 
-    <img src="https://github.com/user-attachments/assets/76ea81e6-3c1f-4c61-9a85-959bb090ba62" alt="Image" width="1427" height="779"/>
+    <img src="https://github.com/user-attachments/assets/6c786a64-5dd2-42ce-9146-1a89299086b7" alt="Image" width="1427" height="779"/>
 
 2)  Assuming you already have shapefiles or geodatabase files for your boundaries of interest, connect to the folders where those files are located by right-clicking on Folders in the Catalog. Click 'Add Folder Connection' and select the folder where your boundary files are located. Right-click on the file and click 'Add to Current Map'.
 
+    <img src="https://github.com/user-attachments/assets/8560e506-230a-412d-96e0-5d073b4fd31b" alt="Image" width="1486" height="827"/>
+
 3)  Double-click on the Summarize Demographics tool. Fill in the parameter fields, described in pop-up fields if you hover over the red asterisk and in the following 'Tool Parameters' section. Click 'Run', cross your fingers, say a prayer to the GIS gods, and it should create an Excel report of summary demographic statistics.
+
+    <img src="https://github.com/user-attachments/assets/38df2891-f00e-419f-9590-6fddc7b9c27c" alt="Image" width="1486" height="826"/>
 
 ### Tool Parameters
 
