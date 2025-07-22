@@ -16,7 +16,7 @@ The Water Boards' ArcGIS Pro Summarize Demographics tool estimates total populat
 
 1)  Download the "CA_Demographic_Analysis.ppkx" to a folder you would like to work from, then open in ArcGIS Pro. You can find the tool in the Project Catalog, under Toolboxes \> CA_Demographic_Analysis.atbx \> Summarize Demographics.
 
-![](images/GIS_screenshot.png)
+    <img src="https://github.com/user-attachments/assets/76ea81e6-3c1f-4c61-9a85-959bb090ba62" alt="Image" width="1427" height="779"/>
 
 2)  Assuming you already have shapefiles or geodatabase files for your boundaries of interest, connect to the folders where those files are located by right-clicking on Folders in the Catalog. Click 'Add Folder Connection' and select the folder where your boundary files are located. Right-click on the file and click 'Add to Current Map'.
 
