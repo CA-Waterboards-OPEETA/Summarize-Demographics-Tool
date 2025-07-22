@@ -1,13 +1,10 @@
-
 # Summarize Demographics Toolbox
-Megan Kung, Equity Data Specialist, OPEETA, State Water Resources Control Board
-megan.kung@waterboards.ca.gov
 
-
+Megan Kung, Equity Data Specialist, OPEETA, State Water Resources Control Board [megan.kung\@waterboards.ca.gov](mailto:megan.kung@waterboards.ca.gov){.email}
 
 ### Overview
 
-The Water Boards' ArcGIS Summarize Demographics tool estimates total population and population-weighted averages of 2023 median household income, race, and languages spoken at home for those who speak English "not very well" within user-specified boundaries.
+The Water Boards' ArcGIS Pro Summarize Demographics tool estimates total population and population-weighted averages of 2023 median household income, race, and languages spoken at home for those who speak English "not very well" within user-specified boundaries.
 
 ### Files
 
@@ -17,13 +14,13 @@ The Water Boards' ArcGIS Summarize Demographics tool estimates total population 
 
 ### **Setup**
 
-1) Download the "CA_Demographic_Analysis.ppkx" to a folder you would like to work from, then open in ArcGIS Pro. You can find the tool in the Project Catalog, under Toolboxes \> CA_Demographic_Analysis.atbx \> Summarize Demographics.
+1)  Download the "CA_Demographic_Analysis.ppkx" to a folder you would like to work from, then open in ArcGIS Pro. You can find the tool in the Project Catalog, under Toolboxes \> CA_Demographic_Analysis.atbx \> Summarize Demographics.
 
 ![](images/GIS_screenshot.png)
 
-2) Assuming you already have shapefiles or geodatabase files for your boundaries of interest, connect to the folders where those files are located by right-clicking on Folders in the Catalog. Click 'Add Folder Connection' and select the folder where your boundary files are located. Right-click on the file and click 'Add to Current Map'.
+2)  Assuming you already have shapefiles or geodatabase files for your boundaries of interest, connect to the folders where those files are located by right-clicking on Folders in the Catalog. Click 'Add Folder Connection' and select the folder where your boundary files are located. Right-click on the file and click 'Add to Current Map'.
 
-3) Double-click on the Summarize Demographics tool. Fill in the parameter fields, described in pop-up fields if you hover over the red asterisk and in the following 'Tool Parameters' section. Click 'Run', cross your fingers, say a prayer to the GIS gods, and it should create an Excel report of summary demographic statistics.
+3)  Double-click on the Summarize Demographics tool. Fill in the parameter fields, described in pop-up fields if you hover over the red asterisk and in the following 'Tool Parameters' section. Click 'Run', cross your fingers, say a prayer to the GIS gods, and it should create an Excel report of summary demographic statistics.
 
 ### Tool Parameters
 
@@ -58,7 +55,7 @@ When the user specifies analysis boundaries that do not align with Census bounda
 ### Data Dictionary
 
 | Variable | Description |
-|----------------------|---------------------------------------------------------|
+|------------------------------------|------------------------------------|
 | TotalPop | Total population |
 | MHI23 | Median Household Income |
 | White | White (non-Hispanic) |
