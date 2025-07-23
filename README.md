@@ -4,7 +4,9 @@ Megan Kung, Equity Data Specialist, OPEETA, State Water Resources Control Board,
 
 ### Overview
 
-The Water Boards' ArcGIS Pro Summarize Demographics tool estimates total population and population-weighted averages of 2023 median household income, race, and languages spoken at home for those who speak English "not very well" within user-specified boundaries.
+Areas of interest to the Water Boards often do not align with Census-designated boundaries, making it difficult to estimate the demographics of a population within areas being considered for Water Board actions, such as watersheds, drinking water systems, or contaminated groundwater plumes. Following the methodology of USEPA's EJScreen version 2.3 ([mirror site](https://pedp-ejscreen.azurewebsites.net/)), the Water Boards' ArcGIS Pro Summarize Demographics tool allows staff to easily create demographic summaries for one or multiple areas of interest.
+
+Specificaly, the tool estimates total population and population-weighted averages of 2023 median household income, race, and languages spoken at home for those who speak English "not very well" within user-specified boundaries.
 
 ### Files
 
