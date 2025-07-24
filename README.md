@@ -1,4 +1,4 @@
-# Summarize Demographics Toolbox
+# Summarize Demographics ArcGIS Tool - beta version
 
 Megan Kung, Equity Data Specialist, OPEETA, State Water Resources Control Board, megan.kung\@waterboards.ca.gov
 
@@ -6,13 +6,13 @@ Megan Kung, Equity Data Specialist, OPEETA, State Water Resources Control Board,
 
 Areas of interest to the Water Boards often do not align with Census-designated boundaries, making it difficult to estimate the demographics of a population within areas being considered for Water Board actions, such as watersheds, drinking water systems, or contaminated groundwater plumes. Following the methodology of USEPA's EJScreen version 2.3 ([mirror site](https://pedp-ejscreen.azurewebsites.net/)), the Water Boards' ArcGIS Pro Summarize Demographics tool allows staff to easily create demographic summaries for one or multiple areas of interest.
 
-Specificaly, the tool estimates total population and population-weighted averages of 2023 median household income, race, and languages spoken at home for those who speak English "not very well" within user-specified boundaries.
+Specifically, the tool estimates total population and population-weighted averages of 2023 median household income, race, and languages spoken at home for those who speak English "not very well" within user-specified boundaries.
 
 ### Files
 
 -   **CA_Demographic_Analysis.ppkx** - ArcGIS Pro package that contains Summarize Demographics tool in the project toolbox as well as layers as described in 'Package layers' section
 
--   **CA_Demographic_Analysis.py** - Python code for the Summarize Demographics tool
+-   **Summarize_Demographics_code.py** - Python code for the Summarize Demographics tool
 
 ### **Setup**
 
@@ -60,12 +60,10 @@ When the user specifies analysis boundaries that do not align with Census bounda
 -   CalEnviroscreen 4.0 scores were not incorporated due to its use of 2019 data, which was based on Census boundaries that differ from 2023. OPEETA staff plan on incorporating CES scores when CalEnviroscreen is next updated.
 -   The summarized MHI23 (median household income 2023) value in the tool output is the population-weighted mean value of median household income. Due to data limitations, the actual median household income is not estimated, but the estimated mean income value is a reasonable approximation. In areas where the income distribution is more skewed, i.e. there are relatively few people with incomes that are much higher or lower than everyone else, the mean value will differ more from the median.
 
-### Installation
-
 ### Data Dictionary
 
 | Variable | Description |
-|------------------------------------|------------------------------------|
+|----|----|
 | TotalPop | Total population |
 | MHI23 | Median Household Income |
 | White | White (non-Hispanic) |
@@ -98,3 +96,7 @@ When the user specifies analysis boundaries that do not align with Census bounda
 | Arabic_Perc | Percent Arabic-speaking households where English is spoken "not very well" |
 | OtherLang_Perc | Percent other language-speaking households where English is spoken "not very well" |
 | Num_of_blocks | Number of blocks used to estimate total population and averages of demographic variables; only included in output table from Summarize Demographics tool |
+
+### Feedback
+
+Please fill out this [survey](https://forms.gle/c6PiRo5QfR6wQDEE9) to let me know how the tool worked for you!
